@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+
+    "name": "Goeoegle It.",
+    "description": "Says 'Google' in the voice of Werner Herzog whenever you use Google.",
+    "version": "1.0.4",
+    "icons": { "16": "icon_16.png",
+               "48": "icon_48.png",
+               "128": "icon_128.png" },
+    "permissions": [
+        "tabs"
+    ],
+    "background": { "scripts": ["goeoegle_sniffer.js"] }
+}
